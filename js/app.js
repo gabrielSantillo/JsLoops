@@ -13,6 +13,10 @@ while(counter_negative >= -50){
 
 let counter_even = 0;
 while(counter_even <= 100) {
-    console.log(counter_even);
-    counter_even = counter_even + 2;
+    if(counter_even % 2 === 0){
+        console.log(counter_even);
+    }
+    
+    counter_even = counter_even + 1;
 }
+
