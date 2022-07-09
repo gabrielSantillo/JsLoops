@@ -17,6 +17,6 @@ while(counter_even <= 100) {
         console.log(counter_even);
     }
     
-    counter_even = counter_even + 1;
+    counter_even += 1;
 }
 
